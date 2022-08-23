@@ -1,0 +1,13 @@
+.charts-page {
+  width: 50%;
+  margin: 0.5rem auto;
+
+  @include for-mobile-layout {
+    width: 100%;
+
+    margin: 1.8rem auto;
+  }
+  .line-chart {
+    margin: em(10px);
+  }
+}

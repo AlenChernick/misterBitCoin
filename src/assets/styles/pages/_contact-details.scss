@@ -1,0 +1,57 @@
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #f5f5f577;
+  width: 25%;
+  margin: em(70px) auto;
+  border-radius: em(5px);
+  padding: em(15px);
+  color: $header-color;
+  @include for-mobile-layout {
+    width: 85%;
+  }
+
+  .contact-info {
+    & > * {
+      margin-block-end: 0.2rem;
+      font-size: 0.9rem;
+    }
+
+    .contact-img {
+      margin-block-start: -1.8rem;
+      width: 45%;
+    }
+  }
+
+  .contact-details-user-moves {
+    padding: em(5px);
+    background-color: rgba(80, 80, 80, 0.262);
+    margin: em(10px);
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.442);
+    width: 70%;
+    margin: 1rem auto;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .go-back-btn {
+    background-color: #5c5c5c;
+    border: none;
+    outline: none;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.216);
+    padding: em(8px);
+    margin: em(10px) auto 0.5rem auto;
+    color: $neutral-color-light;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s, color 0.2s;
+    &:hover {
+      color: $header-color;
+      background-color: #9c9c9c;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.378);
+    }
+  }
+}

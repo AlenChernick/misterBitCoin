@@ -1,0 +1,77 @@
+.app-header {
+  background-color: $header-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.5rem;
+  transition: box-shadow 0.5s ease-in-out;
+
+  .menu-icon {
+    color: $menu-icon-color;
+    z-index: 110;
+    @include for-narrow-layout {
+      display: none;
+    }
+  }
+  &:hover {
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.401);
+  }
+  .logo {
+    color: $primary-color-2;
+    margin-inline-start: 1rem;
+  }
+
+  nav {
+    @include for-mobile-layout {
+      display: flex;
+      background-color: rgba(62, 62, 62, 0.835);
+      box-shadow: -1px 0px 10px #2e2e2e47;
+      margin-inline-end: 0;
+      flex-direction: column;
+      position: fixed;
+      right: 0;
+      top: 0;
+      padding: em(18px) em(30px) em(18px) em(30px);
+      height: 100vh;
+      align-items: center;
+      transform: translateX(100%);
+      transition: transform 0.2s ease-in-out;
+      z-index: 100;
+      &.open {
+        transform: translateX(0);
+      }
+    }
+    a {
+      margin-inline-end: 1rem;
+      color: $anchor-header-color;
+      transition: color 0.2s;
+      font-size: em(18px);
+      @include for-mobile-layout {
+        padding-bottom: em(10px);
+        margin-inline-end: 0;
+        font-size: em(30px);
+      }
+
+      &:hover {
+        color: $neutral-color-light;
+      }
+    }
+  }
+
+  .active {
+    color: $neutral-color-light;
+  }
+}
+
+.app-screen {
+  @include for-mobile-layout {
+    position: fixed;
+    background-color: rgba(90, 90, 90, 0.614);
+    z-index: 50;
+    width: 100%;
+    height: 100%;
+    filter: blur(150%);
+    opacity: 1;
+    transition: all 0.5s;
+  }
+}

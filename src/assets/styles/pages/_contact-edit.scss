@@ -1,0 +1,70 @@
+.contact-edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #f5f5f577;
+  width: 25%;
+  margin: em(125px) auto;
+  border-radius: em(5px);
+  padding: em(15px);
+  @include for-mobile-layout {
+    width: 85%;
+  }
+  .contact-edit-form {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    justify-content: center;
+    input {
+      margin: 0.5rem;
+      padding: em(6px) em(10px) em(6px) em(10px);
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.492);
+      transition: all 0.2s ease-out;
+      &:focus {
+        transform: scale(1.1);
+        background-color: #fff;
+        box-shadow: inset 0 0 0 1px #0079bf;
+      }
+    }
+
+    .form-save-btn {
+      background-color: #0066a1;
+      border: none;
+      outline: none;
+      width: 50%;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.216);
+      padding: em(8px);
+      margin: em(10px) auto 0 auto;
+      color: $neutral-color-light;
+      cursor: pointer;
+      transition: background-color 0.2s, box-shadow 0.2s;
+      &:hover {
+        background-color: #0079bf;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.378);
+      }
+    }
+    .form-back-btn {
+      background-color: #5c5c5c;
+      border: none;
+      outline: none;
+      width: 50%;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.216);
+      padding: em(8px);
+      margin: em(10px) auto -0.5rem auto;
+      color: $neutral-color-light;
+      cursor: pointer;
+      transition: background-color 0.2s, box-shadow 0.2s, color 0.2s;
+      &:hover {
+        color: $header-color;
+        background-color: #9c9c9c;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.378);
+      }
+    }
+  }
+}
