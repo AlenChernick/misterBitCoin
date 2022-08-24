@@ -3,10 +3,11 @@
   margin: 0.5rem auto;
 
   @include for-mobile-layout {
-    width: 100%;
-
+    width: 80%;
     margin: 1.8rem auto;
+    height: 100vh;
   }
+
   .line-chart {
     margin: em(10px);
   }

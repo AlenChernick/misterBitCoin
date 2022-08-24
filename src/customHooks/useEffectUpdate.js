@@ -9,5 +9,5 @@ export const useEffectUpdate = (cb, dependencies) => {
             return
         }
         return cb()
-    }, dependencies)
+    }, [dependencies, cb])
 }

@@ -12,7 +12,7 @@ export const ContactFilter = memo((props) => {
   return (
     <section className='contact-filter'>
       <form>
-        <input {...register('term')} type='text' placeholder='Search Contact...' />
+        <input {...register('term')} type='text' placeholder='Search by name, phone or email...' />
       </form>
     </section>
   )

@@ -49,7 +49,6 @@ export const ContactDetailsPage = () => {
         <h1 className='contact-email'>Email: {contact.email}</h1>
         <hr />
       </div>
-
       <TransferFund contact={contact} onTransferCoins={onTransferCoins} />
       {filteredUserMoves.length > 0 ? (
         <>
@@ -61,7 +60,6 @@ export const ContactDetailsPage = () => {
       ) : (
         <h1>No Moves Yet...</h1>
       )}
-
       <button className='go-back-btn' onClick={onBack}>
         Back
       </button>
