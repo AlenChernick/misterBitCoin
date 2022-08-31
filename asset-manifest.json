@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/misterBitCoin-React-with-hooks-and-redux/static/css/main.f6538e7a.css",
-    "main.js": "/misterBitCoin-React-with-hooks-and-redux/static/js/main.1a3389ad.js",
-    "static/js/787.28cb0dcd.chunk.js": "/misterBitCoin-React-with-hooks-and-redux/static/js/787.28cb0dcd.chunk.js",
-    "static/media/btc-icon.png": "/misterBitCoin-React-with-hooks-and-redux/static/media/btc-icon.7f9e5e703a51754df4db.png",
-    "static/media/user-icon.png": "/misterBitCoin-React-with-hooks-and-redux/static/media/user-icon.ae3a914be1e9f200b221.png",
-    "index.html": "/misterBitCoin-React-with-hooks-and-redux/index.html",
-    "main.f6538e7a.css.map": "/misterBitCoin-React-with-hooks-and-redux/static/css/main.f6538e7a.css.map",
-    "main.1a3389ad.js.map": "/misterBitCoin-React-with-hooks-and-redux/static/js/main.1a3389ad.js.map",
-    "787.28cb0dcd.chunk.js.map": "/misterBitCoin-React-with-hooks-and-redux/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/misterBitCoin/static/css/main.f6538e7a.css",
+    "main.js": "/misterBitCoin/static/js/main.a2d01498.js",
+    "static/js/787.28cb0dcd.chunk.js": "/misterBitCoin/static/js/787.28cb0dcd.chunk.js",
+    "static/media/btc-icon.png": "/misterBitCoin/static/media/btc-icon.7f9e5e703a51754df4db.png",
+    "static/media/user-icon.png": "/misterBitCoin/static/media/user-icon.ae3a914be1e9f200b221.png",
+    "index.html": "/misterBitCoin/index.html",
+    "main.f6538e7a.css.map": "/misterBitCoin/static/css/main.f6538e7a.css.map",
+    "main.a2d01498.js.map": "/misterBitCoin/static/js/main.a2d01498.js.map",
+    "787.28cb0dcd.chunk.js.map": "/misterBitCoin/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f6538e7a.css",
-    "static/js/main.1a3389ad.js"
+    "static/js/main.a2d01498.js"
   ]
 }
